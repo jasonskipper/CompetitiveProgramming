@@ -11,7 +11,7 @@ public class Parentheses {
                 if(parenStack.peek() == '(') {
                     parenStack.pop();
                 } else {
-                    return false;
+                    return false; //
                 }
             } else {
                 continue;
